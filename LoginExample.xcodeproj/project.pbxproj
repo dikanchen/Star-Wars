@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EC2D87E00F8486681EEBA06 /* Pods_LoginExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF00A0F1380E7151C928E09 /* Pods_LoginExampleTests.framework */; };
+		7FDAB302F80CDBEE34C20C7D /* Pods_LoginExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226043AA254149A3A787ED8F /* Pods_LoginExample.framework */; };
+		CE1168A9202F5A7E00990AF0 /* sw_logo_lg_default-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE1168A8202F5A7E00990AF0 /* sw_logo_lg_default-small.jpg */; };
+		CE1168AB202F847000990AF0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1168AA202F847000990AF0 /* Item.swift */; };
+		CE2288572031EC9000C68149 /* 6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE2288562031EC8F00C68149 /* 6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg */; };
+		CE228859203275E400C68149 /* 6d37e737fd31b91afd327cbae8cefd94.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE228858203275E400C68149 /* 6d37e737fd31b91afd327cbae8cefd94.jpg */; };
+		CE22885B2032766A00C68149 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22885A2032766A00C68149 /* PlanetViewController.swift */; };
+		CE22885E2032769900C68149 /* thirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22885D2032769900C68149 /* thirdTableViewCell.swift */; };
+		CE468C1B202F421300B2A81A /* Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE468C1A202F421300B2A81A /* Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg */; };
+		CE468C1D202F464800B2A81A /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE468C1C202F464800B2A81A /* CoverViewController.swift */; };
+		CE468C1F202F473900B2A81A /* Star-Wars-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE468C1E202F473900B2A81A /* Star-Wars-Logo.jpg */; };
+		CE468C23202F488800B2A81A /* 800px_COLOURBOX3043783.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE468C22202F488800B2A81A /* 800px_COLOURBOX3043783.jpg */; };
+		CE468C25202F495500B2A81A /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE468C24202F495500B2A81A /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 */; };
+		CE468C27202F505600B2A81A /* 7ed02b2ded69e5d8d94174550d6c527c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE468C26202F505500B2A81A /* 7ed02b2ded69e5d8d94174550d6c527c.jpg */; };
+		CE468C29202F528F00B2A81A /* 40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE468C28202F528F00B2A81A /* 40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg */; };
+		CE468C2D202F547E00B2A81A /* CodexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE468C2C202F547E00B2A81A /* CodexViewController.swift */; };
+		CE468C2F202F551700B2A81A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE468C2E202F551700B2A81A /* TableViewCell.swift */; };
 		CEA8E9D9202DF3AA00A8544B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E9D8202DF3AA00A8544B /* AppDelegate.swift */; };
 		CEA8E9DB202DF3AA00A8544B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E9DA202DF3AA00A8544B /* ViewController.swift */; };
 		CEA8E9DE202DF3AB00A8544B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA8E9DC202DF3AB00A8544B /* Main.storyboard */; };
@@ -14,6 +31,18 @@
 		CEA8E9E3202DF3AB00A8544B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8E9E2202DF3AB00A8544B /* Assets.xcassets */; };
 		CEA8E9E6202DF3AB00A8544B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA8E9E4202DF3AB00A8544B /* LaunchScreen.storyboard */; };
 		CEA8E9F1202DF3AB00A8544B /* LoginExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E9F0202DF3AB00A8544B /* LoginExampleTests.swift */; };
+		CEA8E9FC202DF42C00A8544B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA8E9FB202DF42C00A8544B /* GoogleService-Info.plist */; };
+		CEC0C484202E088B001D4F02 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C483202E088B001D4F02 /* Extension.swift */; };
+		CEC0C486202E0E5C001D4F02 /* new.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC0C485202E0E5C001D4F02 /* new.storyboard */; };
+		CEC0C488202E13E2001D4F02 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C487202E13E2001D4F02 /* Constants.swift */; };
+		CECD9ED22030EAB4009ED004 /* 640-Star-Wars-movie-l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CECD9ED12030EAB3009ED004 /* 640-Star-Wars-movie-l.jpg */; };
+		CECD9ED42030EBE3009ED004 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9ED32030EBE3009ED004 /* FavoriteViewController.swift */; };
+		CECD9ED620310C07009ED004 /* darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CECD9ED520310C06009ED004 /* darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg */; };
+		CECD9EDA20310ED6009ED004 /* 586665092-kylo-ren-iphone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CECD9ED920310ED6009ED004 /* 586665092-kylo-ren-iphone-wallpaper.jpg */; };
+		CECD9EDC20311126009ED004 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EDB20311125009ED004 /* CharactersViewController.swift */; };
+		CECD9EDE2031121F009ED004 /* ShipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EDD2031121F009ED004 /* ShipsViewController.swift */; };
+		CECD9EE0203136CE009ED004 /* mainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EDF203136CE009ED004 /* mainTableViewCell.swift */; };
+		CECD9EE2203157C9009ED004 /* secondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EE1203157C9009ED004 /* secondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +56,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		108A7E0BF2B0BA70982CCE75 /* Pods-LoginExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginExample/Pods-LoginExample.release.xcconfig"; sourceTree = "<group>"; };
+		15F4C940A704AADE47861E28 /* Pods-LoginExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginExampleTests/Pods-LoginExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		226043AA254149A3A787ED8F /* Pods_LoginExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE901D9E859CB87C33D4C3E /* Pods-LoginExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginExampleTests/Pods-LoginExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EF00A0F1380E7151C928E09 /* Pods_LoginExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402A1459FDC5BC73B2C53C80 /* Pods-LoginExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginExample/Pods-LoginExample.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1168A8202F5A7E00990AF0 /* sw_logo_lg_default-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sw_logo_lg_default-small.jpg"; path = "../../../Downloads/sw_logo_lg_default-small.jpg"; sourceTree = "<group>"; };
+		CE1168AA202F847000990AF0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE2288562031EC8F00C68149 /* 6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg"; path = "../../../Downloads/6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg"; sourceTree = "<group>"; };
+		CE228858203275E400C68149 /* 6d37e737fd31b91afd327cbae8cefd94.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6d37e737fd31b91afd327cbae8cefd94.jpg; path = ../../../Downloads/6d37e737fd31b91afd327cbae8cefd94.jpg; sourceTree = "<group>"; };
+		CE22885A2032766A00C68149 /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
+		CE22885D2032769900C68149 /* thirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdTableViewCell.swift; sourceTree = "<group>"; };
+		CE468C1A202F421300B2A81A /* Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg"; path = "../../../Downloads/Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg"; sourceTree = "<group>"; };
+		CE468C1C202F464800B2A81A /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
+		CE468C1E202F473900B2A81A /* Star-Wars-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Star-Wars-Logo.jpg"; path = "../../../Downloads/Star-Wars-Logo.jpg"; sourceTree = "<group>"; };
+		CE468C22202F488800B2A81A /* 800px_COLOURBOX3043783.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 800px_COLOURBOX3043783.jpg; path = ../../../Downloads/800px_COLOURBOX3043783.jpg; sourceTree = "<group>"; };
+		CE468C24202F495500B2A81A /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Star Wars- The Imperial March (Darth Vader's Theme).mp3"; path = "../../../Downloads/Star Wars- The Imperial March (Darth Vader's Theme).mp3"; sourceTree = "<group>"; };
+		CE468C26202F505500B2A81A /* 7ed02b2ded69e5d8d94174550d6c527c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7ed02b2ded69e5d8d94174550d6c527c.jpg; path = ../../../Downloads/7ed02b2ded69e5d8d94174550d6c527c.jpg; sourceTree = "<group>"; };
+		CE468C28202F528F00B2A81A /* 40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg"; path = "../../../Downloads/40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg"; sourceTree = "<group>"; };
+		CE468C2C202F547E00B2A81A /* CodexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexViewController.swift; sourceTree = "<group>"; };
+		CE468C2E202F551700B2A81A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		CEA8E9D5202DF3AA00A8544B /* LoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA8E9D8202DF3AA00A8544B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA8E9DA202DF3AA00A8544B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +88,18 @@
 		CEA8E9EC202DF3AB00A8544B /* LoginExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA8E9F0202DF3AB00A8544B /* LoginExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExampleTests.swift; sourceTree = "<group>"; };
 		CEA8E9F2202DF3AB00A8544B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA8E9FB202DF42C00A8544B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEC0C483202E088B001D4F02 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CEC0C485202E0E5C001D4F02 /* new.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = new.storyboard; sourceTree = "<group>"; };
+		CEC0C487202E13E2001D4F02 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CECD9ED12030EAB3009ED004 /* 640-Star-Wars-movie-l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "640-Star-Wars-movie-l.jpg"; path = "../../../Downloads/640-Star-Wars-movie-l.jpg"; sourceTree = "<group>"; };
+		CECD9ED32030EBE3009ED004 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CECD9ED520310C06009ED004 /* darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg"; path = "../../../Downloads/darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg"; sourceTree = "<group>"; };
+		CECD9ED920310ED6009ED004 /* 586665092-kylo-ren-iphone-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "586665092-kylo-ren-iphone-wallpaper.jpg"; path = "../../../Downloads/586665092-kylo-ren-iphone-wallpaper.jpg"; sourceTree = "<group>"; };
+		CECD9EDB20311125009ED004 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		CECD9EDD2031121F009ED004 /* ShipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsViewController.swift; sourceTree = "<group>"; };
+		CECD9EDF203136CE009ED004 /* mainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTableViewCell.swift; sourceTree = "<group>"; };
+		CECD9EE1203157C9009ED004 /* secondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDAB302F80CDBEE34C20C7D /* Pods_LoginExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +115,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC2D87E00F8486681EEBA06 /* Pods_LoginExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34CC3894DF721ACA6940DB37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				402A1459FDC5BC73B2C53C80 /* Pods-LoginExample.debug.xcconfig */,
+				108A7E0BF2B0BA70982CCE75 /* Pods-LoginExample.release.xcconfig */,
+				2DE901D9E859CB87C33D4C3E /* Pods-LoginExampleTests.debug.xcconfig */,
+				15F4C940A704AADE47861E28 /* Pods-LoginExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE468C19202F41DB00B2A81A /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				CE468C1A202F421300B2A81A /* Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg */,
+				CE468C1E202F473900B2A81A /* Star-Wars-Logo.jpg */,
+				CE468C22202F488800B2A81A /* 800px_COLOURBOX3043783.jpg */,
+				CE468C26202F505500B2A81A /* 7ed02b2ded69e5d8d94174550d6c527c.jpg */,
+				CE468C28202F528F00B2A81A /* 40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg */,
+				CE1168A8202F5A7E00990AF0 /* sw_logo_lg_default-small.jpg */,
+				CECD9ED12030EAB3009ED004 /* 640-Star-Wars-movie-l.jpg */,
+				CECD9ED520310C06009ED004 /* darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg */,
+				CECD9ED920310ED6009ED004 /* 586665092-kylo-ren-iphone-wallpaper.jpg */,
+				CE2288562031EC8F00C68149 /* 6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg */,
+				CE228858203275E400C68149 /* 6d37e737fd31b91afd327cbae8cefd94.jpg */,
+				CE468C24202F495500B2A81A /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		CE83497720328627009AFA5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8E9DA202DF3AA00A8544B /* ViewController.swift */,
+				CE468C1C202F464800B2A81A /* CoverViewController.swift */,
+				CE468C2C202F547E00B2A81A /* CodexViewController.swift */,
+				CE468C2E202F551700B2A81A /* TableViewCell.swift */,
+				CECD9ED32030EBE3009ED004 /* FavoriteViewController.swift */,
+				CECD9EDB20311125009ED004 /* CharactersViewController.swift */,
+				CECD9EDD2031121F009ED004 /* ShipsViewController.swift */,
+				CECD9EDF203136CE009ED004 /* mainTableViewCell.swift */,
+				CECD9EE1203157C9009ED004 /* secondTableViewCell.swift */,
+				CE22885A2032766A00C68149 /* PlanetViewController.swift */,
+				CE22885D2032769900C68149 /* thirdTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE83497820328633009AFA5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8E9DC202DF3AB00A8544B /* Main.storyboard */,
+				CEC0C485202E0E5C001D4F02 /* new.storyboard */,
+				CEA8E9E4202DF3AB00A8544B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE83497920328643009AFA5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8E9D8202DF3AA00A8544B /* AppDelegate.swift */,
+				CE1168AA202F847000990AF0 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CEA8E9CC202DF3AA00A8544B = {
 			isa = PBXGroup;
 			children = (
 				CEA8E9D7202DF3AA00A8544B /* LoginExample */,
 				CEA8E9EF202DF3AB00A8544B /* LoginExampleTests */,
 				CEA8E9D6202DF3AA00A8544B /* Products */,
+				34CC3894DF721ACA6940DB37 /* Pods */,
+				EB19AD32316F7D13B9BE1E50 /* Frameworks */,
+				CE468C19202F41DB00B2A81A /* pictures */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +213,15 @@
 		CEA8E9D7202DF3AA00A8544B /* LoginExample */ = {
 			isa = PBXGroup;
 			children = (
-				CEA8E9D8202DF3AA00A8544B /* AppDelegate.swift */,
-				CEA8E9DA202DF3AA00A8544B /* ViewController.swift */,
-				CEA8E9DC202DF3AB00A8544B /* Main.storyboard */,
+				CE83497720328627009AFA5E /* Controllers */,
+				CE83497820328633009AFA5E /* Views */,
+				CE83497920328643009AFA5E /* Models */,
 				CEA8E9E2202DF3AB00A8544B /* Assets.xcassets */,
-				CEA8E9E4202DF3AB00A8544B /* LaunchScreen.storyboard */,
 				CEA8E9E7202DF3AB00A8544B /* Info.plist */,
+				CEA8E9FB202DF42C00A8544B /* GoogleService-Info.plist */,
 				CEA8E9DF202DF3AB00A8544B /* LoginExample.xcdatamodeld */,
+				CEC0C483202E088B001D4F02 /* Extension.swift */,
+				CEC0C487202E13E2001D4F02 /* Constants.swift */,
 			);
 			path = LoginExample;
 			sourceTree = "<group>";
@@ -99,6 +235,15 @@
 			path = LoginExampleTests;
 			sourceTree = "<group>";
 		};
+		EB19AD32316F7D13B9BE1E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226043AA254149A3A787ED8F /* Pods_LoginExample.framework */,
+				3EF00A0F1380E7151C928E09 /* Pods_LoginExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA8E9F5202DF3AB00A8544B /* Build configuration list for PBXNativeTarget "LoginExample" */;
 			buildPhases = (
+				F2C8DCB6109B82CFD0E96507 /* [CP] Check Pods Manifest.lock */,
 				CEA8E9D1202DF3AA00A8544B /* Sources */,
 				CEA8E9D2202DF3AA00A8544B /* Frameworks */,
 				CEA8E9D3202DF3AA00A8544B /* Resources */,
+				05863D925C43C250935A3435 /* [CP] Embed Pods Frameworks */,
+				61F345708B1B158E40BF9AD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA8E9F8202DF3AB00A8544B /* Build configuration list for PBXNativeTarget "LoginExampleTests" */;
 			buildPhases = (
+				6D15D9F1A5B02894FEC23EA6 /* [CP] Check Pods Manifest.lock */,
 				CEA8E9E8202DF3AB00A8544B /* Sources */,
 				CEA8E9E9202DF3AB00A8544B /* Frameworks */,
 				CEA8E9EA202DF3AB00A8544B /* Resources */,
+				F2DAC3202741C4236FC52299 /* [CP] Embed Pods Frameworks */,
+				A03F5F947B03A12F593FEEAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,6 +301,11 @@
 					CEA8E9D4202DF3AA00A8544B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					CEA8E9EB202DF3AB00A8544B = {
 						CreatedOnToolsVersion = 9.2;
@@ -182,9 +338,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECD9ED620310C07009ED004 /* darth-vader-helmet-close-up-galaxy-note-hd-wallpaper.jpg in Resources */,
+				CEC0C486202E0E5C001D4F02 /* new.storyboard in Resources */,
+				CECD9ED22030EAB4009ED004 /* 640-Star-Wars-movie-l.jpg in Resources */,
+				CE2288572031EC9000C68149 /* 6d0a7b492101f138ae6186553be2c2d4--st-legion-star-wars-concept-art.jpg in Resources */,
+				CE468C23202F488800B2A81A /* 800px_COLOURBOX3043783.jpg in Resources */,
+				CE468C1F202F473900B2A81A /* Star-Wars-Logo.jpg in Resources */,
+				CE468C1B202F421300B2A81A /* Star-Wars-The-Force-Awakens-Wallpaper-Kylo-Ren-Snow-Scene.jpg in Resources */,
+				CE468C27202F505600B2A81A /* 7ed02b2ded69e5d8d94174550d6c527c.jpg in Resources */,
+				CE1168A9202F5A7E00990AF0 /* sw_logo_lg_default-small.jpg in Resources */,
+				CE468C29202F528F00B2A81A /* 40c712e5f3833bc38dbe1213da27069e--star-wars-wallpaper-iphone-star-wars-backgrounds.jpg in Resources */,
 				CEA8E9E6202DF3AB00A8544B /* LaunchScreen.storyboard in Resources */,
+				CEA8E9FC202DF42C00A8544B /* GoogleService-Info.plist in Resources */,
 				CEA8E9E3202DF3AB00A8544B /* Assets.xcassets in Resources */,
+				CE228859203275E400C68149 /* 6d37e737fd31b91afd327cbae8cefd94.jpg in Resources */,
 				CEA8E9DE202DF3AB00A8544B /* Main.storyboard in Resources */,
+				CECD9EDA20310ED6009ED004 /* 586665092-kylo-ren-iphone-wallpaper.jpg in Resources */,
+				CE468C25202F495500B2A81A /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +367,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05863D925C43C250935A3435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoginExample/Pods-LoginExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExample/Pods-LoginExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F345708B1B158E40BF9AD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExample/Pods-LoginExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D15D9F1A5B02894FEC23EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03F5F947B03A12F593FEEAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExampleTests/Pods-LoginExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C8DCB6109B82CFD0E96507 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DAC3202741C4236FC52299 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExampleTests/Pods-LoginExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEA8E9D1202DF3AA00A8544B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE468C1D202F464800B2A81A /* CoverViewController.swift in Sources */,
+				CE22885E2032769900C68149 /* thirdTableViewCell.swift in Sources */,
+				CECD9EDE2031121F009ED004 /* ShipsViewController.swift in Sources */,
+				CE1168AB202F847000990AF0 /* Item.swift in Sources */,
+				CE468C2F202F551700B2A81A /* TableViewCell.swift in Sources */,
 				CEA8E9DB202DF3AA00A8544B /* ViewController.swift in Sources */,
+				CE22885B2032766A00C68149 /* PlanetViewController.swift in Sources */,
+				CECD9ED42030EBE3009ED004 /* FavoriteViewController.swift in Sources */,
+				CECD9EE2203157C9009ED004 /* secondTableViewCell.swift in Sources */,
 				CEA8E9E1202DF3AB00A8544B /* LoginExample.xcdatamodeld in Sources */,
+				CECD9EE0203136CE009ED004 /* mainTableViewCell.swift in Sources */,
+				CEC0C488202E13E2001D4F02 /* Constants.swift in Sources */,
+				CECD9EDC20311126009ED004 /* CharactersViewController.swift in Sources */,
 				CEA8E9D9202DF3AA00A8544B /* AppDelegate.swift in Sources */,
+				CEC0C484202E088B001D4F02 /* Extension.swift in Sources */,
+				CE468C2D202F547E00B2A81A /* CodexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +646,7 @@
 		};
 		CEA8E9F6202DF3AB00A8544B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402A1459FDC5BC73B2C53C80 /* Pods-LoginExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +661,7 @@
 		};
 		CEA8E9F7202DF3AB00A8544B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108A7E0BF2B0BA70982CCE75 /* Pods-LoginExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +676,7 @@
 		};
 		CEA8E9F9202DF3AB00A8544B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE901D9E859CB87C33D4C3E /* Pods-LoginExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,6 +693,7 @@
 		};
 		CEA8E9FA202DF3AB00A8544B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F4C940A704AADE47861E28 /* Pods-LoginExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
